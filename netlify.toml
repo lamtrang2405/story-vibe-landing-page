@@ -1,0 +1,33 @@
+[build]
+  publish = "."
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Optional: pretty URLs for HTML pages (e.g. /contact instead of /contact.html)
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/landing_fail"
+  to = "/landing_fail.html"
+  status = 200
+
+# SPA-style fallback if you want index for 404s (optional)
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
