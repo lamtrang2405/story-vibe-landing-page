@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Moonlit Kingdom cover">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a18cd1"/>
+      <stop offset="0.55" stop-color="#6c5ce7"/>
+      <stop offset="1" stop-color="#fbc2eb"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="70%" cy="26%" r="40%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" rx="70" fill="url(#g)"/>
+  <rect width="900" height="1200" rx="70" fill="rgba(10,10,15,0.10)"/>
+  <circle cx="690" cy="260" r="220" fill="url(#moon)"/>
+
+  <g opacity="0.2">
+    <path d="M-20 940 C 220 840, 420 1020, 720 930 C 900 870, 980 1000, 980 1000 L 980 1300 L -20 1300 Z" fill="#0a0a0f"/>
+    <path d="M60 980 C 250 900, 420 1080, 660 1010 C 820 960, 900 1040, 900 1040 L 900 1280 L 60 1280 Z" fill="#0a0a0f"/>
+  </g>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(255,255,255,0.9)">
+    <text x="90" y="160" font-size="26" letter-spacing="6" font-weight="800">FANTASY</text>
+  </g>
+  <g font-family="DM Serif Display, Georgia, serif" fill="#ffffff">
+    <text x="90" y="320" font-size="96">Moonlit</text>
+    <text x="90" y="420" font-size="96">Kingdom</text>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(255,255,255,0.85)">
+    <text x="90" y="520" font-size="28">A crown. A curse. A kiss beneath</text>
+    <text x="90" y="560" font-size="28">a sky that remembers everything.</text>
+  </g>
+</svg>
+

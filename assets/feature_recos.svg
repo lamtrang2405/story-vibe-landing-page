@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1800" viewBox="0 0 900 1800" role="img" aria-label="Deviation recommendations screen mock">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141427"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e84393"/>
+      <stop offset="1" stop-color="#a18cd1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="40%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#fbc2eb" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#a18cd1" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1800" rx="70" fill="url(#bg)"/>
+  <rect width="900" height="480" rx="70" fill="url(#glow)"/>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#e8e4f0">
+    <text x="56" y="130" font-size="22" opacity="0.8" letter-spacing="3" font-weight="700">FOR YOU</text>
+  </g>
+  <g font-family="DM Serif Display, Georgia, serif" fill="#ffffff">
+    <text x="56" y="210" font-size="64">Tonights picks</text>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(232,228,240,0.85)">
+    <text x="56" y="265" font-size="22">Personalized recommendations based on what you love.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="320" width="788" height="240" rx="48" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="88" y="352" width="210" height="176" rx="34" fill="url(#accent)"/>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif">
+      <text x="320" y="390" fill="#fbc2eb" font-size="18" letter-spacing="3" font-weight="700">CONTINUE</text>
+      <text x="320" y="432" fill="#ffffff" font-size="34" font-weight="800">The CEOs Secret</text>
+      <text x="320" y="470" fill="rgba(232,228,240,0.82)" font-size="20">Chapter 7 " 62%</text>
+    </g>
+    <rect x="320" y="498" width="480" height="10" rx="5" fill="rgba(255,255,255,0.10)"/>
+    <rect x="320" y="498" width="300" height="10" rx="5" fill="url(#accent)"/>
+  </g>
+
+  <g>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#e8e4f0">
+      <text x="56" y="650" font-size="22" opacity="0.75" letter-spacing="3" font-weight="700">RECOMMENDED</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="56" y="690" width="250" height="360" rx="44" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+      <rect x="328" y="690" width="250" height="360" rx="44" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+      <rect x="600" y="690" width="244" height="360" rx="44" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+
+      <rect x="86" y="720" width="194" height="224" rx="30" fill="linear-gradient(135deg,#ff6b9d,#c44569)"/>
+      <rect x="358" y="720" width="194" height="224" rx="30" fill="linear-gradient(135deg,#a18cd1,#fbc2eb)"/>
+      <rect x="630" y="720" width="188" height="224" rx="30" fill="linear-gradient(135deg,#667eea,#764ba2)"/>
+
+      <g font-family="DM Serif Display, Georgia, serif" fill="#ffffff" font-size="30">
+        <text x="86" y="995">Velvet Vows</text>
+        <text x="358" y="995">Moonlit Kingdom</text>
+        <text x="630" y="995">Alphas Mate</text>
+      </g>
+
+      <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(232,228,240,0.78)" font-size="18" font-weight="700">
+        <text x="86" y="1030">4.8 </text>
+        <text x="358" y="1030">4.7 </text>
+        <text x="630" y="1030">4.6 </text>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="1120" width="788" height="220" rx="56" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#e8e4f0">
+      <text x="96" y="1205" font-size="18" letter-spacing="3" opacity="0.8" font-weight="800">SMART LISTS</text>
+      <text x="96" y="1250" font-size="28" font-weight="800">Your mood, curated</text>
+      <text x="96" y="1290" font-size="20" opacity="0.78">Enemies-to-lovers, slow burn, fantasy romance&</text>
+    </g>
+    <rect x="650" y="1190" width="154" height="70" rx="30" fill="rgba(232,67,147,0.16)" stroke="rgba(232,67,147,0.30)"/>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#fd79a8" font-weight="800">
+      <text x="692" y="1235" font-size="18">Explore</text>
+    </g>
+  </g>
+
+  <rect x="0" y="1660" width="900" height="140" fill="rgba(255,255,255,0.02)"/>
+  <g opacity="0.9">
+    <circle cx="160" cy="1730" r="28" fill="rgba(232,67,147,0.16)"/>
+    <circle cx="450" cy="1730" r="28" fill="rgba(161,140,209,0.16)"/>
+    <circle cx="740" cy="1730" r="28" fill="rgba(251,194,235,0.14)"/>
+  </g>
+</svg>
+

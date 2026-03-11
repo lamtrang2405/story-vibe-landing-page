@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1800" viewBox="0 0 900 1800" role="img" aria-label="Deviation reader screen mock">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12121a"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e84393"/>
+      <stop offset="1" stop-color="#a18cd1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1800" rx="70" fill="url(#bg)"/>
+
+  <rect x="36" y="40" width="828" height="132" rx="40" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="92" cy="106" r="18" fill="rgba(255,255,255,0.10)"/>
+  <circle cx="820" cy="106" r="18" fill="rgba(255,255,255,0.10)"/>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#e8e4f0">
+    <text x="140" y="98" font-size="24" font-weight="700">Moonlit Kingdom</text>
+    <text x="140" y="130" font-size="18" opacity="0.75">Chapter 12 " 8 min read</text>
+  </g>
+  <rect x="140" y="144" width="620" height="10" rx="5" fill="rgba(255,255,255,0.10)"/>
+  <rect x="140" y="144" width="250" height="10" rx="5" fill="url(#accent)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="210" width="792" height="1260" rx="56" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <g font-family="DM Serif Display, Georgia, serif" fill="#ffffff">
+      <text x="110" y="320" font-size="46">The night was soft,</text>
+      <text x="110" y="380" font-size="46">and the castle lights</text>
+      <text x="110" y="440" font-size="46">felt like a promise.</text>
+    </g>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(232,228,240,0.90)">
+      <text x="110" y="525" font-size="26">She turned the page and let the words</text>
+      <text x="110" y="565" font-size="26">wrap around her like velvet. Outside,</text>
+      <text x="110" y="605" font-size="26">rain traced quiet paths along the glass.</text>
+      <text x="110" y="665" font-size="26">Inside, the story was louder</text>
+      <text x="110" y="705" font-size="26">a heartbeat, a glance, a name spoken</text>
+      <text x="110" y="745" font-size="26">too carefully.</text>
+      <text x="110" y="825" font-size="26" opacity="0.9">Tell me the truth, he said.</text>
+      <text x="110" y="885" font-size="26">She didnt look away. Not this time.</text>
+    </g>
+
+    <rect x="110" y="1010" width="680" height="14" rx="7" fill="rgba(255,255,255,0.10)"/>
+    <rect x="110" y="1046" width="610" height="14" rx="7" fill="rgba(255,255,255,0.10)"/>
+    <rect x="110" y="1082" width="650" height="14" rx="7" fill="rgba(255,255,255,0.10)"/>
+    <rect x="110" y="1118" width="520" height="14" rx="7" fill="rgba(255,255,255,0.10)"/>
+  </g>
+
+  <rect x="36" y="1520" width="828" height="220" rx="56" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="#e8e4f0" font-weight="700">
+    <text x="90" y="1595" font-size="20" opacity="0.8">Reader controls</text>
+  </g>
+  <g>
+    <rect x="90" y="1630" width="180" height="70" rx="28" fill="rgba(232,67,147,0.14)" stroke="rgba(232,67,147,0.30)"/>
+    <rect x="290" y="1630" width="180" height="70" rx="28" fill="rgba(161,140,209,0.12)" stroke="rgba(161,140,209,0.30)"/>
+    <rect x="490" y="1630" width="180" height="70" rx="28" fill="rgba(251,194,235,0.10)" stroke="rgba(251,194,235,0.26)"/>
+    <rect x="690" y="1630" width="174" height="70" rx="28" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.10)"/>
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#e8e4f0" opacity="0.95">
+      <text x="135" y="1674">Aa</text>
+      <text x="330" y="1674">Night</text>
+      <text x="537" y="1674">Bookmark</text>
+      <text x="743" y="1674">Share</text>
+    </g>
+  </g>
+</svg>
+

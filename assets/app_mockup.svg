@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1800" viewBox="0 0 900 1800" role="img" aria-label="App mockup placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e84393"/>
+      <stop offset="0.5" stop-color="#a18cd1"/>
+      <stop offset="1" stop-color="#fbc2eb"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12121a"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="60" width="660" height="1680" rx="90" fill="#0b0b12"/>
+    <rect x="150" y="150" width="600" height="1500" rx="70" fill="url(#screen)"/>
+    <rect x="250" y="95" width="400" height="22" rx="11" fill="#1f1f2e"/>
+    <circle cx="690" cy="106" r="10" fill="#1f1f2e"/>
+  </g>
+
+  <g>
+    <rect x="180" y="210" width="540" height="220" rx="40" fill="url(#bg)" opacity="0.9"/>
+    <text x="225" y="300" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="700">Deviation</text>
+    <text x="225" y="360" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" opacity="0.9">Your romantic novel escape</text>
+
+    <rect x="180" y="470" width="540" height="84" rx="24" fill="#1a1a28" stroke="rgba(255,255,255,0.08)"/>
+    <text x="225" y="525" fill="#e8e4f0" font-family="Inter, Arial, sans-serif" font-size="26">Continue reading</text>
+
+    <rect x="180" y="590" width="260" height="260" rx="36" fill="#1a1a28" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="460" y="590" width="260" height="260" rx="36" fill="#1a1a28" stroke="rgba(255,255,255,0.08)"/>
+    <text x="215" y="660" fill="#fd79a8" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="2">BILLIONAIRE</text>
+    <text x="215" y="705" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="34">The CEO's</text>
+    <text x="215" y="745" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="34">Secret</text>
+    <text x="495" y="660" fill="#a18cd1" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="2">FANTASY</text>
+    <text x="495" y="705" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="34">Moonlit</text>
+    <text x="495" y="745" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="34">Kingdom</text>
+
+    <rect x="180" y="900" width="540" height="440" rx="44" fill="#1a1a28" stroke="rgba(255,255,255,0.08)"/>
+    <text x="225" y="980" fill="#fbc2eb" font-family="Inter, Arial, sans-serif" font-size="20" letter-spacing="2">FOR YOU</text>
+    <text x="225" y="1040" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="44">Tonight's</text>
+    <text x="225" y="1090" fill="#ffffff" font-family="Playfair Display, Georgia, serif" font-size="44">Top Picks</text>
+    <rect x="225" y="1140" width="450" height="12" rx="6" fill="rgba(255,255,255,0.12)"/>
+    <rect x="225" y="1170" width="380" height="12" rx="6" fill="rgba(255,255,255,0.12)"/>
+    <rect x="225" y="1200" width="420" height="12" rx="6" fill="rgba(255,255,255,0.12)"/>
+  </g>
+</svg>
+

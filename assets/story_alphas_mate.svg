@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Alpha's Mate cover">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="0.55" stop-color="#764ba2"/>
+      <stop offset="1" stop-color="#e84393"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="40%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" rx="70" fill="url(#g)"/>
+  <rect width="900" height="1200" rx="70" fill="url(#glow)"/>
+
+  <g opacity="0.22">
+    <path d="M-30 950 C 210 850, 420 1020, 720 950 C 910 905, 980 1010, 980 1010 L 980 1300 L -30 1300 Z" fill="#0a0a0f"/>
+  </g>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(255,255,255,0.9)">
+    <text x="90" y="160" font-size="26" letter-spacing="6" font-weight="800">WEREWOLF</text>
+  </g>
+  <g font-family="DM Serif Display, Georgia, serif" fill="#ffffff">
+    <text x="90" y="320" font-size="96">Alphas</text>
+    <text x="90" y="420" font-size="96">Mate</text>
+  </g>
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" fill="rgba(255,255,255,0.85)">
+    <text x="90" y="520" font-size="28">One scent. One bond. One rule:</text>
+    <text x="90" y="560" font-size="28">never fall for the Alpha.</text>
+  </g>
+
+  <g opacity="0.25">
+    <circle cx="700" cy="800" r="190" fill="rgba(10,10,15,0.7)"/>
+    <path d="M650 790 C 680 760, 720 760, 750 790 C 720 820, 680 820, 650 790 Z" fill="rgba(255,255,255,0.7)"/>
+  </g>
+</svg>
+

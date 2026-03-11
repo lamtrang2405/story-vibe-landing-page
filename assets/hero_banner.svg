@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Abstract romantic night sky gradient">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1055"/>
+      <stop offset="0.45" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#e84393"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#fbc2eb" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#a18cd1" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <circle cx="980" cy="380" r="520" fill="url(#glow)"/>
+  <g filter="url(#soft)" opacity="0.35">
+    <path d="M-50 840 C 260 760, 420 940, 760 860 C 1100 780, 1220 920, 1500 860 C 1760 804, 1880 900, 1970 940 L 1970 1130 L -50 1130 Z" fill="#0a0a0f"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="260" cy="220" r="2.2" fill="#ffffff"/>
+    <circle cx="420" cy="310" r="1.8" fill="#ffffff"/>
+    <circle cx="610" cy="180" r="1.4" fill="#ffffff"/>
+    <circle cx="780" cy="260" r="1.6" fill="#ffffff"/>
+    <circle cx="1120" cy="210" r="2.0" fill="#ffffff"/>
+    <circle cx="1320" cy="320" r="1.5" fill="#ffffff"/>
+    <circle cx="1540" cy="190" r="1.8" fill="#ffffff"/>
+    <circle cx="1680" cy="280" r="1.4" fill="#ffffff"/>
+  </g>
+</svg>
+
